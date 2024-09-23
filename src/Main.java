@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //System.out.println(task1());
-        //System.out.println(task2());
-        //System.out.println(task3());
-        //System.out.println(task4());
+        //System.out.println(findFactorial());
+        //System.out.println(evenNum());
+        //System.out.println(sumOfDig());
+        //System.out.println(maxOfNum());
 
 
     }
 
-    public static int task1(){
+    public static int findFactorial(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your number: ");
         int num = scanner.nextInt();
@@ -27,7 +27,7 @@ public class Main {
 
     }
 
-    public static String task2(){
+    public static String evenNum(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your number: ");
         int num = scanner.nextInt();
@@ -40,7 +40,7 @@ public class Main {
 
     }
 
-    public static int task3(){
+    public static int sumOfDig(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your number: ");
         int num = scanner.nextInt();
@@ -52,7 +52,7 @@ public class Main {
         return sumDigits;
     }
 
-    public static int task4(){
+    public static int maxOfNum(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your number: ");
         int a = scanner.nextInt();
