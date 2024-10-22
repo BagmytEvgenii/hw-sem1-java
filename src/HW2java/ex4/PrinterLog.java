@@ -9,7 +9,7 @@ public class PrinterLog {
     public static void main(String[] args) {
         int[] arr = {};
         if (args.length == 0) {
-            arr = new int[]{9, 4, 8, 3, 1};
+            arr = new int[]{9, 2, 4, 8, 3, 1, 10, 4};
         } else {
             arr = Arrays.stream(args[0].split(", "))
                     .mapToInt(Integer::parseInt)
